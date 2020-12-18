@@ -8,7 +8,8 @@ public class ArabicNumeral {
 	void inputNums() throws IOException {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-		System.out.println("Введите арифмитическое" + " выражение: ");
+		System.out.println("Р’РІРµРґРёС‚Рµ Р°СЂРёС„РјРёС‚РёС‡РµСЃРєРѕРµ" 
+				   + " РІС‹СЂР°Р¶РµРЅРёРµ: ");
 		String[] data = reader.readLine().split(" ");
 		a = data[0];
 		b = data[1];
@@ -30,7 +31,8 @@ public class ArabicNumeral {
 		} else if (b.equals("/")) {
 			System.out.println(q / w);
 		} else {
-			System.out.println("Введите корректный символ" + " арифметической операции");
+			System.out.println("Р’РІРµРґРёС‚Рµ РєРѕСЂСЂРµРєС‚РЅС‹Р№ СЃРёРјРІРѕР»" 
+		+ " Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕР№ РѕРїРµСЂР°С†РёРё");
 
 		}
 	}
