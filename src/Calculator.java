@@ -16,8 +16,8 @@ public class Calculator {
 				if (ob.q != 0 & ob.q <= 10 & ob.w != 0 & ob.w <= 10) {
 					ob.operation();
 				} else {
-					System.out.println("Ââîäèòå ÷èñëà îò 1 äî 10");
-					System.out.println("Çàâåðøåíèå ðàáîòû");
+					System.out.println("Ð’Ð²Ð¾Ð´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð° Ð¾Ñ‚ 1 Ð´Ð¾ 10");
+					System.out.println("Ð—Ð°Ð²ÐµÑ€ÑˆÐµÐ½Ð¸Ðµ Ñ€Ð°Ð±Ð¾Ñ‚Ñ‹");
 					return;
 				}
 			} else {
@@ -34,14 +34,14 @@ public class Calculator {
 						ob1.operation();
 					}
 				} catch (NullPointerException e) {
-					System.out.println("Ââîäèòå ÷èñëà îò I äî X");
-					System.out.println("Çàâåðøåíèå ðàáîòû");
+					System.out.println("Ð’Ð²Ð¾Ð´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð° Ð¾Ñ‚ I Ð´Ð¾ X");
+					System.out.println("Ð—Ð°Ð²ÐµÑ€ÑˆÐµÐ½Ð¸Ðµ Ñ€Ð°Ð±Ð¾Ñ‚Ñ‹");
 					return;
 				}
 
 			}
 
-			System.out.println("Ââåñòè íîâîå çíà÷åíèå 'y' - äà, 'n' - íåò");
+			System.out.println("Ð’Ð²ÐµÑÑ‚Ð¸ Ð½Ð¾Ð²Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ 'y' - Ð´Ð°, 'n' - Ð½ÐµÑ‚");
 			Scanner scan = new Scanner(System.in);
 			playAgain = scan.next();
 		} while (playAgain.equalsIgnoreCase("y"));
